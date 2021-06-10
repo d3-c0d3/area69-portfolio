@@ -1,0 +1,136 @@
+.infoMainContainer{
+  background-image: url("../../assets/basicBG1.jpg");
+  min-height: 100vh;
+
+  background-position: center center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.sendMessage{
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+
+
+
+align-items: flex-end;
+}
+.sendMessage h3{
+  color: #0ff4c6;
+}
+.sendMessage input{
+  width: 15rem;
+  height: 2.3rem;
+  margin-bottom: 3rem;
+  outline: none;
+  background-color: #f1f9ff;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  color: #464f51;
+}
+.sendMessage textarea{
+  
+  outline: none;
+  border: none;
+  resize: none;
+  width: 15rem;
+  height: 8rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #464f51;
+}
+
+.btn{
+  display: inline;
+  border: 1px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.Button {
+  text-align: end;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.Button:active{
+  transform: scale(.95);
+}
+.contactInfo{
+  margin-top: 15%;
+}
+.contactInfo h3{
+  color: #0ff4c6;
+
+}
+.contactContainer h4{
+  margin: 0;
+  margin-bottom: .5rem;
+  margin-top: 1.5rem;
+  color: #0ff4c6;
+}
+ .informationContainer{
+  
+   color: #464f51;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+  width: 15rem;
+  height: 2.3rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #f1f9ff;
+} 
+
+@media(max-width:550px){
+  .infoMainContainer{
+    display: block;
+  }
+  .sendMessage{
+    margin-top: 0;
+    margin-right: 1rem;
+  }
+  .contactInfo{
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media(max-width:350px){
+  .sendMessage input{
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    
+  }
+  .sendMessage textarea{
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+  }
+  .informationContainer{
+    width: 10rem;
+    height: 2rem;
+    font-size: .7rem;
+    padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  }
+  .contactContainer h4{
+    font-weight: 300;
+  }
+}

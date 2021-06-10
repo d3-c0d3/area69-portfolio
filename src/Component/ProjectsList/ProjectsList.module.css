@@ -1,0 +1,14 @@
+.ProjectsList{
+   /*  margin-top: 60px; */
+    background-color: #2F2F2F;
+    z-index: -1;
+/*     margin-left: 2rem; */
+}
+.ProjectsList ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* margin-left: 2rem; */
+    /* margin-top: 10px; */
+}
+

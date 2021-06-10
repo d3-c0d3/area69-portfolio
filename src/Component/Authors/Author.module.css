@@ -1,0 +1,73 @@
+.Author{
+   /*  border: 1px solid white; */
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:2rem ;
+    margin-right: .25rem;
+   /*  padding: 5px; */
+    color: whitesmoke;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px  5px black;
+    margin-top: 10rem;
+    border-radius: 10px;
+    /* margin-left: 2rem; */
+    /* border: 1px solid white; */
+    /* background-image:url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?size=626&ext=jpg") ;
+   backdrop-filter: blur(10px); */
+   background-color: rgb(32, 40, 54);
+}
+.Author:hover{
+    /*  transform: rotate(360deg);  */
+    transform: rotate(1deg);
+    transition-duration: .5s;
+z-index: -1;
+}
+.ModalImg{
+    width: 100%;
+}
+.imgContainer{
+    margin: -3px;
+}
+.Author img{
+    width: auto;
+    height: 12rem;
+    max-width: 180px;
+    box-sizing: border-box;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    cursor: pointer;
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0000000c;
+    margin-top: 0;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.gitLinks{
+    
+   display: inline;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.gitLinks a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.emailContainer{
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    font-size: .7rem;
+}
+.authorName{
+    margin-top: .5rem;
+    font-family: 'Dancing Script', cursive;
+}

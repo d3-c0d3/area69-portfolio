@@ -1,0 +1,222 @@
+
+.Layout{
+    background-image: url('../../assets/mainBg.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2F2F2F;
+    /* position: fixed; */
+    /* top: 60px; */
+   /*  height: 100vh; */
+   min-height: 100vh;
+}
+.particles{
+    position:fixed;
+    top:60px;
+    bottom: 0;
+    right: 5px;
+    left: 0;
+    z-index: .5;
+    pointer-events: none;
+  }
+.Title{
+   /*   margin-top: 2rem;  */
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: center;
+    text-align: center;
+    padding-top:8rem ;
+    padding-bottom: 4rem;
+}
+.titleSlot{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 300;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px rgba(112, 112, 112, 0.5);
+    border-radius: 5px;
+}
+.Title:hover{
+     transform: rotate(360deg); 
+    transform: rotate3d(.5,.7,.2,360deg);
+    transition-duration: 3s;
+}
+.A{
+  
+    background-color: rgba(61, 61, 61, 0.5);
+}
+.R{
+    background-color: rgba(66, 173, 235, 0.5);
+}
+.six{
+    background-color: rgba(18, 160, 160, 0.5);
+}
+.nine{
+    background-color: rgba(71, 223, 172, 0.5);
+}
+.infoContainer{
+    display: flex;
+}
+.promo{
+    margin-top: 8rem;
+    margin-left: 3rem;
+    padding: 10px;
+    width: 40%;
+   /*  border: 1px solid white; */
+    color: rgb(121, 212, 182);
+    font-family: 'Libre Franklin', sans-serif;
+}
+.promo span{
+    font-size: 3.5rem;
+}
+.projects{
+   position: relative;
+    margin-top: 10rem;
+    margin-right: 15px;
+    width: 50%;
+    bottom: 0;
+}
+.projects h2{
+    color:  rgb(119, 119, 119);
+    border: .5px solid rgb(119, 119, 119);
+    cursor: pointer;
+    text-align: end;
+    margin-right: 15px;
+   /*  font-weight: 500; */
+    cursor: pointer;
+    z-index: 200;
+    padding: 5px;
+    font-weight: 100;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(36, 36, 36);
+}
+.projects h2:hover{
+    text-align: start;
+   
+}
+.projects h2:hover span::before{
+    visibility: visible;
+    content: "More ";
+    /* z-index: 200; */
+   /*  border: .5px solid  rgb(119, 119, 119); */
+   
+   /*  box-shadow: 2px 2px 5px rgb(36, 36, 36); */
+    
+}
+.projects h2:active span{
+   display: none;
+}
+.projects h2:active{
+    /* z-index: 200; */
+   transform: scale(.9);
+    
+}
+a{
+    text-decoration: none;
+}
+.basicH2 span{
+    visibility: hidden;
+  /* width: 120px; */
+  /* border: .5px solid  rgb(119, 119, 119); */
+  color: rgb(119, 119, 119);
+  padding: 10px;
+  font-size: 1rem;
+  background-color: rgba(41, 40, 40, 0.171);
+    font-weight: 300;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* width: 120px; */
+  /* bottom: 79%;
+  left: 65%; */
+   margin-left: 2rem; 
+  /* Position the tooltip */
+
+  z-index: 1;
+}
+.projectContainer{
+    display: flex;
+    justify-content: space-between;
+   /*  z-index: 1; */
+}
+.projectContainer img:hover{
+    transform: scale(1.05);
+    transition-duration: .3s;
+}
+
+.projects img{
+    width: 30%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+@media(max-width:500px){
+    .infoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Title{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    .titleSlot{
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .promo{
+        width: 90%;
+        text-align: left;
+        font-size: .9rem;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    .projects{
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .projects img{
+        width: 20%;
+    }
+    .projectContainer{
+        justify-content: center;
+    }
+    .basicH2{
+        width: 50%;
+        font-size: .9rem;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}
+@media(max-width:400px){
+    .titleSlot{
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1rem;
+        
+    }
+}
