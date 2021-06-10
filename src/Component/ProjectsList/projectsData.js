@@ -43,7 +43,7 @@ export const projectsData=[
         smallTopImgSrc:demoTop,
         smallBottomImgSrc:demoBottom,
         link:'',
-        details:'Event organizer website: Allows you to book packages for an entire event like wedding, birthdays etc'
+        details:'An E-commerce site for shopping built using react - redux'
 
     },
     {
@@ -52,7 +52,7 @@ export const projectsData=[
         smallTopImgSrc:todoTop,
         smallBottomImgSrc:todoBottom,
         link:'',
-        details:'Event organizer website: Allows you to book packages for an entire event like wedding, birthdays etc'
+        details:'A simple task reminder app build from  scratch by react'
 
     },
     {
@@ -61,7 +61,7 @@ export const projectsData=[
         smallTopImgSrc:singlePageTop,
         smallBottomImgSrc:singlePageBottom,
         link:'',
-        details:'Event organizer website: Allows you to book packages for an entire event like wedding, birthdays etc'
+        details:'Our single page applications for various purpose'
 
     }
 ]

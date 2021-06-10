@@ -7,7 +7,7 @@ const Project=(props)=>{
         <div className={classes.Project}>
             <div className={classes.projectImgs} >
                 <div className={classes.mainImg} > 
-                <LazyLoadImage delayTime='3000'  src={props.data.mainImgSrc}/>
+                <LazyLoadImage delayTime='200'  src={props.data.mainImgSrc}/>
                 <div class={classes.middle}>
                 <div class={classes.text}  >Visit</div>
                 </div>

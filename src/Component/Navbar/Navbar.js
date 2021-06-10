@@ -9,12 +9,12 @@ const Navbar=()=>{
     return(
         <BrowserRouter>
         <ul className={classes.Navbar} >
-            <li> <Link to="/" > Feed </Link></li>
+            <li> <Link to="/area69-portfolio" > Feed </Link></li>
             <li>  <Link to="/authors" > Authors </Link></li>
             <li> <Link to="/contact" > Contact Us </Link></li>
         </ul>
         <Switch>
-            <Route exact path ="/"  render={()=> <Layout/> }/>
+            <Route exact path ="/area69-portfolio"  render={()=> <Layout/> }/>
             <Route exact path ="/authors" render={()=> <AuthorsList/>}/>
             <Route exact path="/projects" render={()=><ProjectsList/>}/>
             <Route exact path ="/contact" render={()=><ContactInfo/>}/>
